@@ -1,6 +1,6 @@
 <?php 
-	require_once('library/menu.php');
-	require_once('library/connect.php');
+	require_once('include/menu.php');
+	require_once('include/db_connect.php');
 ?>
 
 <h1>All shipments</h1>
@@ -54,4 +54,3 @@
 	{
 		echo "0 results";
 	}
-?>
